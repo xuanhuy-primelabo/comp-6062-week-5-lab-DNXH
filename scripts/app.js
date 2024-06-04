@@ -16,52 +16,52 @@ let b = parseFloat(prompt('Enter Number for b'));
 // Step 2: Use equality and inequality operators to compare the variables.
 // Example: let isEqual;
 // Use '==' to compare 'a' and 'b' for equality.
-
+let isEqual = (a == b);
 // Example: let isStrictEqual;
 // Use '===' to compare 'a' and 'b' for strict equality.
-
+let isStrictEqual = (a === b);
 // Example: let isNotEqual;
 // Use '!=' to compare 'a' and 'b' for inequality.
-
+let isNotEqual = (a != b);
 // Example: let isStrictNotEqual;
 // Use '!==' to compare 'a' and 'b' for strict inequality.
-
+let isStrictNotEqual = (a !== b);
 // Step 3: Perform basic mathematical operations.
 // Example: let add;
 // Add 'a' and 'b'.
-
+let add = a + b;
 // Example: let sub;
 // Subtract 'b' from 'a'.
-
+let sub = a - b;
 // Example: let multiply;
 // Multiply 'a' and 'b'.
-
+let multiply = a * b;
 // Example: let power; use ** as the operator
 // Raise 'a' to the power of 'b'.
-
+let power = a ** b;
 // Example: let division;
 // Divide 'a' by 'b'.
-
+let division = a / b;
 // Step 4: Use comparison operators to compare the variables.
 // Example: let isGreaterThan;
 // Check if 'a' is greater than 'b'.
-
+let isGreaterThan = (a > b);
 // Example: let isGreaterOrEqual;
 // Check if 'a' is greater than or equal to 'b'.
-
+let isGreaterOrEqual = (a >= b);
 // Example: let isLessThan;
 // Check if 'a' is less than 'b'.
-
+let isLessThan = (a < b);
 // Example: let isLessOrEqual;
 // Check if 'a' is less than or equal to 'b'.
-
+let isLessOrEqual = (a <= b);
 // Step 5: Apply binary logic with short-circuit evaluation.
 // Example: let andResult;
 // Use '&&' to check if both 'a' and 'b' are greater than 5.
-
+let andResult = (a > 5 && b > 5);
 // Example: let orResult;
 // Use '||' to check if either 'a' or 'b' is greater than 5.
-
+let orResult = (a > 5 || b > 5)
 //
 // Do not edit below this line, this code will display the values on the page
 //
